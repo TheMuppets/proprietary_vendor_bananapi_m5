@@ -4,3 +4,9 @@
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/bananapi/m5
+
+PRODUCT_PACKAGES += \
+    libGLES_mali
+
+PRODUCT_PACKAGES += \
+    vendor_lib_hw_vulkan_amlogic_so
