@@ -6,9 +6,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),m5)
 
-$(call add-radio-file-sha1-checked,radio/bootloader-console.img,a751403c504142703f424adbe287b004c8c7b327)
-$(call add-radio-file-sha1-checked,radio/bootloader-recovery.img,8cd232d616723f550842fb03276d7be84308a05e)
-$(call add-radio-file-sha1-checked,radio/bootloader.img,d71a67d8181520e5590528aef8f922f7dbeb18e0)
+$(call add-radio-file-sha1-checked,radio/bootloader-console.img,173a4f0f79766dab9c9ac0a06dc06ba2d0c0b89f)
+$(call add-radio-file-sha1-checked,radio/bootloader-recovery.img,2ef0fe3b02cd289a08b709ca0cddf3de83dda91b)
+$(call add-radio-file-sha1-checked,radio/bootloader.img,2bd373175abb74a14c63ac8bb2f791dd503325c8)
 $(call add-radio-file-sha1-checked,radio/misc.img,eb37860b2030f3d29ab61af22b96bae52bc7d42e)
 
 endif
