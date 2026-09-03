@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),m5)
+ifneq ($(filter m5 m5_tab,$(TARGET_DEVICE)),)
 
 $(call add-radio-file-sha1-checked,radio/bootloader-console.img,173a4f0f79766dab9c9ac0a06dc06ba2d0c0b89f)
 $(call add-radio-file-sha1-checked,radio/bootloader-recovery.img,2ef0fe3b02cd289a08b709ca0cddf3de83dda91b)
